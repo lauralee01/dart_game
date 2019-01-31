@@ -14,7 +14,43 @@ html, body {
   text-align: center;
 }
 .number {
+  position: relative;
+  width: 10%;
+  border-radius: 10px;
   margin: 10px;
-  border-radius: 20px;
-  padding: 10px;
+  color: white;
+  background-color: #000;
+  box-shadow: 1px 1px 1px 1px;
+
+  padding: 2px;
+}
+#numbers {
+  width: 40%;
+  height: 300px;
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 10px;
+ box-shadow: 2px 2px 4px 3px rgba(0, 0, 0, 0.9);
+}
+#brand_name {
+  width: 100%;
+  background-color: #000;
+  margin: 0;
+  padding: 0;
+  font-size: 32px;
+  color: white;
+  position: flex;
+  
+}
+#gameline{
+  width: 50%;
+  margin: 0 auto;
+}
+#submit {
+  width: 50%;
+  background-color: #000;
+  color: white;
+  border-radius: 10px;
+  margin-top: 10px;
+  box-shadow:  2px 2px 4px 3px rgba(0, 0, 0, 0.9);
 }
