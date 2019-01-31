@@ -34,7 +34,7 @@ generateDate() {
   date.innerHtml =  show;  
 }
 countDownInterval()  {
-  var time = DateTime(2019, 2, 1);
+  var time = DateTime(2019, 2, 2);
 
   Timer.periodic(Duration(seconds: 1), (_) {
     var now = DateTime.now();
@@ -47,8 +47,9 @@ countDownInterval()  {
     var hours = ((inMilli / (1000 * 60 * 60)) % 24).floor();
     var days = (inMilli / (1000 * 60 * 60 * 24)).floor();
 
-    querySelector('#hours').innerHtml = '${hours}h';
-    querySelector('#minutes').innerHtml = '${minutes}m';
+    querySelector('#days').innerHtml = '${days}d :';
+    querySelector('#hours').innerHtml = '${hours}h :';
+    querySelector('#minutes').innerHtml = '${minutes}m :';
     querySelector('#seconds').innerHtml = '${seconds}s';
   });
   

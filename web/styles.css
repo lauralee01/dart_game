@@ -5,13 +5,13 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
-  background-color: red;
+  font-family: 'Sedgwick Ave Display', cursive;
+  background-color: #ff0000;
 }
 
 #output {
-  padding: 20px;
-  text-align: center;
+  padding: 10px;
+  
 }
 .number {
   position: relative;
@@ -25,6 +25,7 @@ html, body {
   padding: 2px;
 }
 #numbers {
+  margin-top: 10px;
   width: 40%;
   height: 300px;
   text-align: center;
@@ -35,22 +36,58 @@ html, body {
 #brand_name {
   width: 100%;
   background-color: #000;
-  margin: 0;
-  padding: 0;
-  font-size: 32px;
-  color: white;
+  margin-bottom: 10px;
+  padding: 2px;
+  font-size: 28px;
+  color: #fff;
   position: flex;
-  
+  justify-content: flex-start;
+  border-radius: 5px;
 }
 #gameline{
   width: 50%;
   margin: 0 auto;
 }
+#showNumbers {
+  width: 40%;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow:  1px 1px 1px 1px;
+  border-radius: 10px;
+}
 #submit {
   width: 50%;
   background-color: #000;
-  color: white;
+  color: #fff;
   border-radius: 10px;
-  margin-top: 10px;
+  margin: 10px auto;
+  text-align: center;
   box-shadow:  2px 2px 4px 3px rgba(0, 0, 0, 0.9);
+}
+#counterDate {
+  position: flex;
+  justify-content: flex-end;
+  color: #000;
+  width: 25%;
+  text-align: center;
+  margin: 20px auto;
+  background-color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow:  1px 1px 1px 1px;
+}
+#subcontainer {
+  text-align: center;
+}
+#days {
+  font-size: 30px;
+}
+#hours {
+  font-size: 30px;
+}
+#minutes {
+  font-size: 30px;
+}
+#seconds {
+  font-size: 30px;
 }
